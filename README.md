@@ -17,17 +17,17 @@ The following technologies are used in this project:
 - **JWT (JSON Web Tokens)**
 - **MongoDB**
 ## Getting Started
- **1. Clone the Repository:** >git clone https://github.com/artur10021/go-auth-with-jwt-server.git
+ **1. Clone the Repository:** >`git clone https://github.com/artur10021/go-auth-with-jwt-server.git`
  
- **2. Install Dependencies:** >go mod download
+ **2. Install Dependencies:** >`go mod download`
 
- **3. Configuration** > Create a .env file in the project directory and set the necessary environment variables: 
+ **3. Configuration** > Create a `.env` file in the project directory and set the necessary environment variables: 
 `MONGODB_URI=mongodb://localhost:27017`
 `SECRET_KEY=SECRET_KEY_FOR_JWT`
 
 ![image](https://github.com/artur10021/go-auth-with-jwt-server/assets/66840544/f7a9e306-39ed-48ec-a6e9-6f015ca6a4c6)
 
- **4. Run the Application** >go run main.go 
+ **4. Run the Application** >`go run main.go`
 
 ## Routes
 
