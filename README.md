@@ -55,14 +55,14 @@ Route for performing a token refresh operation.
 - `refreshToken` - The token returned when using the getTokens route
 
 After launching the project using the command `go run main.go`, we can utilize two endpoints. To perform testing, I am using Postman.
-We use the URL /getTokens?guid={GUID} by passing the guid parameter, and then we receive a JSON response from the server containing the accessToken and refreshToken.
+We use the URL `/getTokens?guid={GUID}` by passing the guid parameter, and then we receive a `JSON` response from the server containing the accessToken and refreshToken.
 ![image](https://github.com/artur10021/go-auth-with-jwt-server/assets/66840544/2716f2d6-269a-4754-b501-40184c3150f7)
 
 **MongoDB:**
 
 ![image](https://github.com/artur10021/go-auth-with-jwt-server/assets/66840544/e29e6626-8246-4f11-a73c-45172eab2abb)
 
-After obtaining the accessToken and refreshToken, we can make use of the second endpoint /refreshTokens?guid={GUID}&refreshToken={refreshToken} to refresh the refreshToken in the database and receive a new accessToken.
+After obtaining the `accessToken` and `refreshToken`, we can make use of the second endpoint `/refreshTokens?guid={GUID}&refreshToken={refreshToken}` to refresh the refreshToken in the database and receive a new accessToken.
 ![image](https://github.com/artur10021/go-auth-with-jwt-server/assets/66840544/7f559bc3-cce5-4f3f-8faf-c2c570f62b01)
 
 **MongoDB:**
