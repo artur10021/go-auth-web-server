@@ -260,6 +260,7 @@ func setTokens() {
 func main() {
 
 	setTokens()
+
 	refreshTokensFunk()
 
 	fmt.Println("server started on port 80")
