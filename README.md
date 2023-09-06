@@ -27,7 +27,7 @@ The following technologies are used in this project:
 
 ![image](https://github.com/artur10021/go-auth-with-jwt-server/assets/66840544/f7a9e306-39ed-48ec-a6e9-6f015ca6a4c6)
 
- **4. Run the Application** >`go run main.go`
+ **4. Run the Application** >`go run .`
 
 ## Routes
 
